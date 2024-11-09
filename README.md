@@ -1,59 +1,59 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Energy Optimization in Smart Grids through Predictive Modelling and Explainable AI
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project develops an intelligent energy optimization system using machine learning and Explainable AI (XAI) to improve energy efficiency while reducing carbon emissions and operational costs. By analyzing historical and meteorological data, it provides transparent forecasts and insights, aligning with SDG 7 to support sustainable energy use across various settings.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+### Data Extraction and Preprocessing:
+- Extract historical energy data from Kaggle and meteorological data from OpenWeatherMap.
+- Clean and normalize data to handle inconsistencies.
+- Perform feature engineering to enhance data relevance for model training.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+### Data Storage and Management:
+- Use MongoDB to store processed data, ensuring efficient management and retrieval.
+- Organize data into collections for energy and meteorological information to support model training and analysis.
+- Enable scalability and flexibility in data storage to accommodate future expansion and diverse data sources.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+### Data Analysis:
+- Analyze consumption patterns and trends using machine learning models like XGBoost and Random Forest.
+- Examine correlations between energy usage and external factors such as temperature and humidity.
+- Utilize Explainable AI (XAI) tools like SHAP and LIME to interpret model predictions, offering clear insights into influential variables.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+### Develop a dashboard using Power BI to visualize energy consumption trends and forecasted usage.
+- Display key metrics, such as real-time energy usage and influential factors, for a clear overview.
+- Provide interactive elements to allow stakeholders to explore data insights and track efficiency goals effectively.
 
+## System Architecture:
+![Screenshot (423)(1)(1)](https://github.com/user-attachments/assets/fd453f19-ef26-4fd9-a1f9-754286d5437d)
 
-## Output
+# Output:
+### Implementation of Datasets from kaggle and Openweatherapp:
+![image](https://github.com/user-attachments/assets/29ffc3e5-c75a-4957-9c80-7abf631d0484)
+![image](https://github.com/user-attachments/assets/e20a852a-63ee-4611-9045-f6d91f366029)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### Implementation of Explainable AI(XAI):
+![image](https://github.com/user-attachments/assets/cebfd354-a927-4a50-b836-3dfd327804a5)
+![image](https://github.com/user-attachments/assets/d5ae99ec-62ca-49d5-b762-7d153ae3c4f7)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+### Predicted Energy consumption values:
+![Screenshot (421)](https://github.com/user-attachments/assets/c9c183d9-adf3-42ca-ab0d-26088245818c)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+### Accuracy:
+![Screenshot (422)(1)(1)](https://github.com/user-attachments/assets/0f09d052-1fe7-4ea8-ba9c-29eb9f7e3899)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+### Completed Dashborad:
 
+![WhatsApp Image 2024-11-09 at 10 28 32_a27c8d51](https://github.com/user-attachments/assets/50686162-6ea0-414d-b62f-a429590a58cc)
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+# Result:
+The project achieved significant energy savings and improved efficiency by over 20%, meeting key milestones. Short-term impacts included enhanced resource allocation, while long-term impacts align with sustainability goals. The solution is scalable and adaptable for various applications, fostering broader environmental benefits.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+# Articles published / References:
+1.P. K. Mohanty, D. S. Roy and K. H. K. Reddy, "Explainable AI for predicting daily household energy usages," 2022 International Conference on Artificial Intelligence and Data Engineering (AIDE), Karkala, India, 2022, pp. 182-186, doi: 10.1109/AIDE57180.2022.10060217.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+2.P. Vijayan, "Energy Consumption Prediction in Low Energy Buildings using Machine learning and Artificial Intelligence for Energy Efficiency," 2022 8th International Youth Conference on Energy (IYCE), Hungary, 2022, pp. 1-6, doi: 10.1109/IYCE54153.2022.9857548.
 
+3.P. Kushwaha, A. Rana, F. Hassan, S. S. Hada, G. Bhardwaj and V. Bhutani, "Energy Prediction in Urban Areas Using Machine Learning and Deep Learning," 2023 10th IEEE Uttar Pradesh Section International Conference on Electrical, Electronics and Computer Engineering (UPCON), Gautam Buddha Nagar, India, 2023, pp. 190-195, doi: 10.1109/UPCON59197.2023.10434347.
 
 
 
