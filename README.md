@@ -1,6 +1,5 @@
 ## Title of the Project
-Energy Optimization in Smart Grids through Predictive Modelling and Explainable AI
-
+Energy Consumption Optimization using Machine Learning and Explainable AI
 ## About
 This project develops an intelligent energy optimization system using machine learning and Explainable AI (XAI) to improve energy efficiency while reducing carbon emissions and operational costs. By analyzing historical and meteorological data, it provides transparent forecasts and insights, aligning with SDG 7 to support sustainable energy use across various settings.
 
